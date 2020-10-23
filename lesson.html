@@ -1,0 +1,217 @@
+<!--Домашние работы должны быть в виде готовых программ, которые можно запустить, т.е. ваш код
+не должен быть написан в текстовом файле, и не должен быть закомментирован.
+1. Задать температуру в градусах по Цельсию. Вывести в alert соответствующую температуру в
+градусах по Фаренгейту. Подсказка: расчёт идёт по формуле:
+Tf = (9 / 5) * Tc + 32
+где Tf – температура по Фаренгейту, Tc – температура по Цельсию
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function sum(tf, tc) {
+            return tf + tc;
+        }
+
+        let result = sum(1.8, 32);
+        alert('Температура по Фаренгейту:')
+        alert(result); 
+    </script>
+
+</body>
+
+</html>
+
+
+<!--
+2. Объявить две переменные: admin и name. Записать в name строку "Василий". Скопировать
+значение из name в admin. Вывести в консоль переменную admin (должно вывести "Василий").
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        "use strict";
+
+        let name = prompt("Введите ваше Имя  Василий", " ");
+
+        if (name == "Василий") {
+            alert(name);
+            alert("Добрый день Василий");
+        } else {
+            alert("А вот и не правельно!");
+        }
+
+        console.log(admin);
+    </script>
+</body>
+
+</html>
+
+
+<!--3. Вывести в консоль значения выражений и объяснить почему получились такие значения
+используя комментарии к каждому выражению:
+10 + 10 + "10"
+10 + "10" + 10
+10 + 10 + +"10" (обратите внимание на пробелы, пишите также)
+10 / -""
+10 / +"2,5" (да здесь запятая, это не опечатка)
+Объяснения пишите в таком формате:
+let result = 3 - 4 * 2;
+console.log(result);
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        "use strict";
+        let num = prompt("Введите пример", " ");
+        let num1 = 10;
+        let num2 = 10;
+        let num3 = "10"
+        let result = 10 + 10 + "10";
+        alert(result);
+        console.log(result);
+        //Сложения чисел + контентинация, 2010//
+
+    </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        "use script";
+        let num = prompt("Введите пример", " ");
+        let num1 = 10;
+        let num2 = "10";
+        let num3 = 10;
+        let result = 10 + "10" + 10;
+        alert(result);
+        console.log(result);
+        //Контентинация, 101010//
+
+    </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        "use script";
+        let num = prompt("Введите пример", " ");
+        let num1 = 10;
+        let num2 = -"";
+        let result = 10 / -"";
+        alert(result);
+        console.log(result);
+        // Получаем число бесконечность infinity //
+
+    </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        "use script";
+        let num = prompt("Введите пример", " ");
+        let num1 = 10;
+        let num2 = "2,5";
+        let result = 10 / "2,5";
+        alert(result);
+        console.log(result);
+        // Результат NaN //
+
+    </script>
+</body>
+
+</html>
+
+
+
+<!--
+1. 4 умножаем на 2 получаем 8
+2. 3 минус 8 получаем -5
+3. -5 присваиваем в переменную result
+4. с помощью console.log выводим result в консоль
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        "use script";
+        let num = prompt("Введите пример", " ");
+        let num1 = 2;
+        let num2 = 4;
+        let result = num2 * num1 / 3 - 8;
+        alert(result);
+        console.log(result);
+        // Преоритет операторов -5.333333333333334 //
+
+    </script>
+</body>
+
+</html>
+</script>
+</body>
+
+</html>
